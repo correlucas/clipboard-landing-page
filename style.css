@@ -56,12 +56,131 @@ body {
   line-height: 1.3;
   text-rendering: optimizeSpeed;
   font-family: 'Bai Jamjuree', sans-serif;
-  background-color: ghostwhite;
+  background-color: white;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
 }
 
 :root {
   --purple: hsla(233, 100%, 69%, 1);
   --green: hsla(171, 66%, 44%, 1);
   --gray: hsla(210, 10%, 33%, 1);
-  --lt-gray: hsla(198, 11%, 83%, 1);
+  --lt-gray: hsla(201, 11%, 66%, 1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.logo {
+  max-width: 125px;
+  padding-bottom: 56px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 1.4;
+  letter-spacing: -0.75px;
+  color: var(--gray);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.586957px;
+  color: var(--gray);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.391304px;
+  color: var(--gray);
+}
+
+.body {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.135px;
+  margin: 0 auto;
+  max-width: 640px;
+  color: var(--lt-gray);
+}
+
+
+.body-medium {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  margin: 0 auto;
+  max-width: 640px;
+  color: var(--lt-gray);
+}
+
+.body-small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  margin: 0 auto;
+  max-width: 640px;
+  color: var(--lt-gray);
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 50px;
+  margin: 0 auto;
+  max-width: 640px;
+  transition: ease-in 0.5s;
+}
+
+.btn-green {
+  background-color: var(--green);
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.btn-blue {
+  background-color: var(--purple);
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.btn:hover {
+  transition: ease-out 0.3s;
+  opacity: 80%;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-40 {
+  padding-bottom: 48px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-140 {
+  padding-bottom: 140px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 110px;
 }
