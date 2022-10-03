@@ -82,6 +82,11 @@ main {
   padding-bottom: 56px;
 }
 
+.logo:hover {
+  opacity: 70%;
+  transition: ease-out 0.3s;
+}
+
 h1 {
   font-weight: 600;
   font-size: 46px;
@@ -136,6 +141,7 @@ h3 {
   color: var(--lt-gray);
 }
 
+
 .btn {
   font-weight: 400;
   font-size: 18px;
@@ -155,13 +161,18 @@ h3 {
 
 .btn-blue {
   background-color: var(--purple);
-  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  box-shadow: 0px 10px 20px rgba(120, 162, 238, 0.503), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
 }
 
 .btn:hover {
   transition: ease-out 0.3s;
-  opacity: 80%;
+  opacity: 70%;
 }
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 
 .pb-20 {
   padding-bottom: 20px;
@@ -175,6 +186,11 @@ h3 {
   padding-bottom: 80px;
 }
 
+.pb-110 {
+  padding-bottom: 110px;
+}
+
+
 .pb-140 {
   padding-bottom: 140px;
 }
@@ -183,4 +199,23 @@ h3 {
   display: flex;
   align-items: center;
   gap: 110px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.download {
+  display: flex;
+  gap: 48px;
 }
