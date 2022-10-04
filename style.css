@@ -125,6 +125,7 @@ h3 {
 }
 
 
+
 .body-medium {
   font-weight: 400;
   font-size: 18px;
@@ -143,6 +144,16 @@ h3 {
   margin: 0 auto;
   max-width: 350px;
   color: var(--lt-gray);
+}
+
+a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  margin: 0 auto;
+  max-width: 350px;
+  color: white;
 }
 
 
@@ -214,6 +225,13 @@ h3 {
   justify-content: center;
 }
 
+.flex-row-footer {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  justify-content: space-between;
+}
+
 .flex-row-logo {
   display: flex;
   flex-wrap: wrap;
@@ -236,8 +254,29 @@ h3 {
 }
 
 .flex-list {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 20px;
+}
+
+li:hover,
+a:hover {
+  opacity: 80%;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+
+
+
+.flex-list-logo {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
   column-gap: 40px;
+  max-width: 600px;
 }
 
 .grid-2x {
@@ -312,7 +351,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 110px;
+  max-width: 1110px;
   margin: 0 auto;
   padding-inline: 40px;
 }
