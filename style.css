@@ -214,6 +214,14 @@ h3 {
   justify-content: center;
 }
 
+.flex-row-logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 110px;
+  justify-content: center;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -306,4 +314,11 @@ footer {
 .footer-container {
   max-width: 110px;
   margin: 0 auto;
+  padding-inline: 40px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-inline: 40px;
 }
