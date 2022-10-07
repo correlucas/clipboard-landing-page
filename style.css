@@ -298,6 +298,7 @@ a:hover {
 
 .download {
   display: flex;
+  flex-wrap: wrap;
   gap: 48px;
   justify-content: center;
   margin: 0 auto;
@@ -306,6 +307,7 @@ a:hover {
 
 .download-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 48px;
   margin: 0 auto;
@@ -360,4 +362,54 @@ footer {
   max-width: 1110px;
   margin: 0 auto;
   padding-inline: 40px;
+}
+
+@media (min-width: 1600px) {
+  .computer {
+    transform: initial;
+  }
+}
+
+@media (max-width: 750px) {
+  .grid-2x {
+    grid-template-columns: 1fr;
+  }
+
+  .computer {
+    transform: initial;
+    padding-bottom: 50px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+  .specs {
+    text-align: center;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .flex-row-logo {
+    flex-direction: column;
+  }
+
+  .flex-list {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr;
+    column-gap: 80px;
+    row-gap: 20px;
+    justify-items: center;
+  }
+
+  .flex-row-footer {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
