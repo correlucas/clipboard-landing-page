@@ -464,3 +464,68 @@ footer {
   background: linear-gradient(30deg, #2488a4 0.11%, #1da591 94.8%);
   transform: ease 0.3s;
 }
+
+/* animations */
+
+
+.logo,
+.container {
+  -webkit-animation: slideInUp1.2s ease-in 1 500ms;
+  animation: slideInUp 1.2s ease-in 1;
+  transition: all ease-out 0.5s;
+}
+
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes slideInUp {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
