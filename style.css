@@ -316,7 +316,29 @@ a:hover {
 
 .computer {
   transform: translateX(-200px) scale(1.5);
+  position: relative;
 }
+
+.computer:hover {
+  position: relative;
+}
+
+.computer-hover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: ease-out 0.5s;
+}
+
+.computer-hover:hover {
+  opacity: 1;
+  transition: ease-out 0.5s;
+}
+
 
 
 .overflow {
@@ -371,6 +393,9 @@ footer {
 }
 
 @media (max-width: 750px) {
+
+
+
   .grid-2x {
     grid-template-columns: 1fr;
   }
