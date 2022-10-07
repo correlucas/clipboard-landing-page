@@ -406,7 +406,7 @@ footer {
   }
 }
 
-@media (max-width:650px) {
+@media (max-width:750px) {
   .flex-row-footer {
     gap: 50px;
     flex-direction: column;
@@ -457,4 +457,10 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(30deg, #38a2bf 0.11%, #26BBA4 94.8%);
   border-radius: 100vw;
+  transform: ease 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(30deg, #2488a4 0.11%, #1da591 94.8%);
+  transform: ease 0.3s;
 }
