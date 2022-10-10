@@ -74,16 +74,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 130px;
+  padding-top: 8.125rem;
 }
 
 .logo {
-  max-width: 125px;
-  padding-bottom: 56px;
+  max-width: 7.8125rem;
+  padding-bottom: 3.5rem;
 }
 
 .logo-white {
-  max-width: 50px;
+  max-width: 3.125rem;
 }
 
 .logo:hover {
@@ -93,34 +93,34 @@ main {
 
 h1 {
   font-weight: 600;
-  font-size: 46px;
+  font-size: 2.875rem;
   line-height: 1.4;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.0469rem;
   color: var(--gray);
 }
 
 h2 {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  letter-spacing: -0.586957px;
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  letter-spacing: -0.0367rem;
   color: var(--gray);
 }
 
 h3 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.391304px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  letter-spacing: -0.0245rem;
   color: var(--gray);
 }
 
 .body {
   font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.135px;
+  font-size: 1.25rem;
+  letter-spacing: 0.0084rem;
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 40rem;
   color: var(--lt-gray);
 }
 
@@ -128,55 +128,55 @@ h3 {
 
 .body-medium {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.12px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0075rem;
   margin: 0 auto;
-  max-width: 680px;
+  max-width: 42.5rem;
   color: var(--lt-gray);
 }
 
 .body-small {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.12px;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0075rem;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 21.875rem;
   color: var(--lt-gray);
 }
 
 a {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.12px;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0075rem;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 21.875rem;
   color: white;
 }
 
 
 .btn {
   font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.5px;
+  font-size: 1.125rem;
+  letter-spacing: 0.0313rem;
   color: white;
-  padding: 14px 40px;
-  border-radius: 50px;
+  padding: 0.875rem 2.5rem;
+  border-radius: 3.125rem;
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 40rem;
   transition: ease-in 0.5s;
 }
 
 .btn-green {
   background-color: var(--green);
-  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  box-shadow: 0rem 0.625rem 1.25rem rgba(137, 229, 199, 0.503305), inset 0rem -0.1875rem 0rem rgba(0, 0, 0, 0.151333);
 }
 
 .btn-blue {
   background-color: var(--purple);
-  box-shadow: 0px 10px 20px rgba(120, 162, 238, 0.503), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  box-shadow: 0rem 0.625rem 1.25rem rgba(120, 162, 238, 0.503), inset 0rem -0.1875rem 0rem rgba(0, 0, 0, 0.151333);
 }
 
 .btn:hover {
@@ -185,50 +185,50 @@ a {
 }
 
 .pb-10 {
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 
 .pb-20 {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .pt-20 {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 .pb-40 {
-  padding-bottom: 48px;
+  padding-bottom: 3rem;
 }
 
 .pb-80 {
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 
 .pb-110 {
-  padding-bottom: 110px;
+  padding-bottom: 6.875rem;
 }
 
 
 .pb-140 {
-  padding-bottom: 140px;
+  padding-bottom: 8.75rem;
 }
 
 .pb-180 {
-  padding-bottom: 180px;
+  padding-bottom: 11.25rem;
 }
 
 .flex-row {
   display: flex;
   align-items: center;
-  gap: 110px;
+  gap: 6.875rem;
   justify-content: center;
 }
 
 .flex-row-footer {
   display: flex;
   align-items: center;
-  gap: 110px;
+  gap: 6.875rem;
   justify-content: space-between;
 }
 
@@ -236,7 +236,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 110px;
+  gap: 6.875rem;
   justify-content: center;
 }
 
@@ -244,7 +244,7 @@ a {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 40rem;
 }
 
 .flex-icon {
@@ -257,8 +257,8 @@ a {
   display: grid;
   text-align: left;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 80px;
-  row-gap: 20px;
+  column-gap: 5rem;
+  row-gap: 1.25rem;
 }
 
 li:hover,
@@ -274,9 +274,9 @@ a:hover {
 .flex-list-logo {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 20px;
-  column-gap: 40px;
-  max-width: 600px;
+  row-gap: 1.25rem;
+  column-gap: 2.5rem;
+  max-width: 37.5rem;
 }
 
 .grid-2x {
@@ -284,7 +284,7 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin: 0 auto;
 }
 
@@ -292,30 +292,30 @@ a:hover {
   display: flex;
   flex-direction: column;
   text-align: left;
-  gap: 50px;
+  gap: 3.125rem;
   align-items: flex-start;
 }
 
 .download {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 3rem;
   justify-content: center;
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 40rem;
 }
 
 .download-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 48px;
+  gap: 3rem;
   margin: 0 auto;
-  max-width: 520px;
+  max-width: 32.5rem;
 }
 
 .computer {
-  transform: translateX(-200px) scale(1.5);
+  transform: translateX(-12.5rem) scale(1.5);
   position: relative;
 }
 
@@ -348,21 +348,21 @@ a:hover {
 .features {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .flex-icon {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .icon {
   display: block;
-  max-width: 44px;
+  max-width: 2.75rem;
 }
 
 footer {
-  padding-block: 40px;
+  padding-block: 2.5rem;
   background: linear-gradient(270.55deg, #38B6BF 0.11%, #26BBA4 94.8%);
   color: white;
 }
@@ -371,28 +371,28 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: left;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .footer-container {
-  max-width: 1110px;
+  max-width: 69.375rem;
   margin: 0 auto;
-  padding-inline: 40px;
+  padding-inline: 2.5rem;
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 69.375rem;
   margin: 0 auto;
-  padding-inline: 40px;
+  padding-inline: 2.5rem;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 100rem) {
   .computer {
     transform: initial;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 46.875rem) {
 
 
 
@@ -402,18 +402,18 @@ footer {
 
   .computer {
     transform: initial;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
   }
 }
 
-@media (max-width:750px) {
+@media (max-width:46.875rem) {
   .flex-row-footer {
-    gap: 50px;
+    gap: 3.125rem;
     flex-direction: column;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .specs {
     text-align: center;
   }
@@ -430,15 +430,15 @@ footer {
     display: grid;
     text-align: left;
     grid-template-columns: 1fr;
-    column-gap: 80px;
-    row-gap: 20px;
+    column-gap: 5rem;
+    row-gap: 1.25rem;
     justify-items: center;
   }
 
   .flex-row-footer {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 3.75rem;
     justify-content: space-between;
     flex-direction: column;
   }
@@ -448,10 +448,10 @@ footer {
 /* colored scroll bar */
 
 ::-webkit-scrollbar {
-  width: 1em;
-  height: 1em;
+  width: 1rem;
+  height: 1rem;
   background: rgb(245, 245, 245);
-  box-shadow: inset 0 0 5px rgba(#49636d, 0.3);
+  box-shadow: inset 0 0 0.3125rem rgba(#49636d, 0.3);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -508,7 +508,7 @@ footer {
 
 @-webkit-keyframes slideInUp {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(-6.25rem);
     opacity: 0;
   }
 
@@ -520,7 +520,7 @@ footer {
 
 @keyframes slideInUp {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(-6.25rem);
     opacity: 0;
   }
 
